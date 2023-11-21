@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../otros/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../otros/Poppins-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins-Regular';
+}
+h1, h2, h3{
+    font-family: 'Poppins-Medium';
+}
+h1 {
+    color: rgb(102, 11, 69);
+}
+.h2Nosotros {
+    color: orangered;
+}
+.navbar{
+
+    padding: 2em;
+    background-color: rgb(102, 11, 69) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar ul li a {
+    font-size: 1.1em;
+}
+.imgPortada{
+    background-image: url(../img/yoga3.jpg);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.seccion-par {
+    background-color: #ffffff;
+}
+.seccion-impar {
+    background-color: rgb(102, 11, 69);
+    margin: 0;
+}
+.img-clases{
+    width: auto;
+    height: 650px;
+    object-fit: cover;
+}
+.card-text p {
+    height: 121px;
+}
+.btn {
+    background: orangered;
+    width: 40%;
+    border-radius: 100px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgba(255, 68, 0, 0.897);
+    border-color: orangered;
+}
+
+ul {
+    list-style-type: none;
+}
+.liClases::before {
+    content: "\2022";
+    color: orangered;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.card {
+    background-size: cover;
+    color: white;
+}
+.c1 {
+    background: url('../img/c1.jpg');
+}
+.c2 {
+    background-image: url(../img/c2.jpg);
+}
+.c3 {
+    background-image: url(../img/c3.jpg);
+}
+.c4 {
+    background-image: url(../img/c4.jpg);
+}
+.c5 {
+    background-image: url(../img/c5.jpg);
+}
+.c6 {
+    background-image: url(../img/c6.jpg);
+}
+.card-body {
+    background: rgba(0, 0, 0, 0.538);
+}
+svg :hover {
+    color: orangered;
+    border-color: orangered;
+    transition: 0.5s;
+}
+@media screen and (min-width:996px) {
+    .imgPortada {
+    background-attachment: fixed;
+    }
+    .navbar {
+        height: 4.5em;
+    }
+}
